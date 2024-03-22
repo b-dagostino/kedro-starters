@@ -1,0 +1,30 @@
+project_name:
+  title: "Project Name"
+  text: |
+    Please enter a name for your new project.
+    Spaces, hyphens, and underscores are allowed.
+    To skip this step in future use --name
+  regex_validator: "^[\\w -]{2,}$"
+  error_message: |
+    It must contain only alphanumeric symbols, spaces, underscores and hyphens and
+    be at least 2 characters long.
+
+project_description:
+  title: "Project Description"
+  text: |
+    Please enter a description for your new project.
+    
+project_license:
+  title: "License"
+  text: |
+    Please enter your project license.
+
+author_name:
+  title: "Author Name"
+  text: |
+    Please enter your name.
+
+author_email:
+  title: "Author Email"
+  text: |
+    Please enter your email address.

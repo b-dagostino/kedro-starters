@@ -1,0 +1,13 @@
+{
+    "project_name": "New Kedro Project",
+    "project_description": "",
+    "project_license": "MIT",
+    "author_name": "",
+    "author_email": "",
+    "repo_name": "{{ cookiecutter.project_name.strip().replace(' ', '-').replace('_', '-').lower() }}",
+    "python_package": "{{ cookiecutter.project_name.strip().replace(' ', '_').replace('-', '_').lower() }}",
+    "kedro_version": "{{ cookiecutter.kedro_version }}",
+    "tools": "none",
+    "example_pipeline": "no",
+    "_extensions": ["local_extensions.PythonVersionExtension"]
+}
